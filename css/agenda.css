@@ -1,0 +1,92 @@
+.esquerda {
+    margin-top: 15px;
+}
+
+.direita {
+    margin-top: 15px;
+}
+
+#boxDia{
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FFF;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #337ab7;
+}
+            
+#boxCalendario {
+    float: left;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 10px;
+}
+    
+#boxAgenda {
+    
+}
+
+.botoesControle {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.agendarSpan {
+    font-size: 16px; 
+    padding-left: 16px; 
+    
+}
+
+#horaAtiva {
+    color: #337ab7;
+    font-weight: 600;
+    float: right;
+    padding-right: 16px;
+}
+
+#boxEditar {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding: 6px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#datepicker {
+    font-size: 16px;
+}
+
+.testeTabela {
+    border-bottom: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+}
+
+
+td.hora {
+    width: 90px;
+    line-height: 22px;
+    padding-left: 10px;
+    color: #617c8b;
+    font-weight: 600;
+}
+
+td.eventoAgenda {
+    width: 100%;
+    line-height: 22px;
+    padding-left: 10px;  
+}

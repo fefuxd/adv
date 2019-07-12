@@ -1,0 +1,38 @@
+@charset "utf-8";
+fieldset{	
+        width:500px;
+        margin-left:10px;
+    }
+	
+	.tip
+	{
+		border:1px solid #CDC99B;
+		border-radius: 5px;
+		min-width: 300px;
+		max-width: 300px;
+		max-height: 100px;
+		overflow-y: auto;
+		display: none;
+		top: 0px;
+		left: 0px;
+		background-color: #FFF;
+        z-index: 400;
+        position: fixed;
+		
+
+}
+
+		
+	
+	.tip .item {
+		padding: 2px 0px 2px 2px;
+		display: block;
+		
+	
+	}
+	
+	.tip .item:hover {
+		background-color: #EDEDDC;
+		cursor: pointer;
+	
+	}

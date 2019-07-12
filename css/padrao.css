@@ -1,0 +1,328 @@
+body {
+    display: block;
+    position: relative;
+    overflow-x: hidden;
+    background-color: #f6f6f6;
+    font-family: Helvetica, Arial, sans-serif;
+    
+    
+}
+
+header {
+    width: calc(100% - 220px);
+    height: 15px;
+    background-color: #1c99da;
+    position: fixed;
+    display: block;
+    z-index: 20;
+    left: 220px;
+    border-bottom: 1px solid #1682ba;
+}
+
+div.topo{
+    height: 40px;
+    float: left;
+    line-height: 20px;
+    color: #FFF;
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.topo li {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    display: inline-block;
+    color: #FFF;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+    outline: 0 none;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 40px;
+}
+
+.topo li:hover {
+    background-color: #1778aa;
+
+}
+
+aside {
+    width: 220px;
+    height: 100%;
+    background-color: #1c99da;
+    position: fixed;
+    float: right;
+    border-right: 1px solid #1682ba;
+}
+
+main {
+    width: calc(100% - 220px);
+    background-color: #f6f6f6;
+    position: relative;
+    top: 15px;
+    left: 220px;    
+    text-align: justify;
+    padding: 10px; 
+}
+
+#aniversariantesMES {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+
+#logo {
+    width: 100%;
+    height: 120px;
+    background-color: #FFFFFF;
+}
+
+h1 {
+    width: 100%;
+    height: 50px;
+    line-height: 45px;
+    background-color: #ffffff;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    left: 220px;
+    top:15px;
+    position: relative;
+    border-bottom: 1px solid #e9e9e9;
+    padding-left: 15px;
+}
+
+/* FORMULÁRIOS */
+
+input{ 
+    padding: 9px; 
+    border: solid 1px #d5d5d5; 
+    outline: 0; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 13px; 
+    background: #FFFFFF;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+input:hover,.preview-block input:focus{ 
+    border-color: #b1b1b1; 
+}
+
+
+label {
+    font-size: 12px;
+    position:relative;
+}
+
+select {
+    padding: 9px; 
+    border: solid 1px #d5d5d5; 
+    outline: 0; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 13px; 
+    background: #FFFFFF; 
+    
+}
+
+.form label{ 
+    font-family: 'Open Sans', sans-serif; 
+    margin-left: 10px;
+    font-size: 14px; 
+    color: #555555; 
+    width: 80px;
+    display: inline-block;
+}
+
+input:focus{ 
+   box-shadow: rgba(0,0,0, 0.20) 0px 0px 8px; 
+   -moz-box-shadow: rgba(0,0,0, 0.2) 0px 0px 8px; 
+   -webkit-box-shadow: rgba(0,0,0, 0.2) 0px 0px 8px; 
+   transition: all .2s;
+}
+
+button { 
+    width: auto; 
+    padding: 10px 20px; 
+    background: #4d90fd; 
+    border: 0; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 14px; 
+    color: #FFFFFF; 
+    cursor: pointer;
+}
+
+button:hover{ 
+    background: #3667b5; 
+    border-bottom: 2px solid #49505a; 
+    transition: all .1s;
+}
+
+.nome input {
+    background-color: black;
+} 
+
+/* BOX */
+
+.caixa {
+    width: 300px;
+    height: 80px;
+    line-height: 40px;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.04);
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 20px 20px;
+    background: #fff;
+    box-sizing: border-box;
+    display: block;
+    color: inherit;
+    font-size: 25px;
+    font-family: 'Open Sans',sans-serif;
+    float: left;
+    margin-right: 20px;
+}
+
+.numeroCont {
+    font-weight: 600;
+    color: dodgerblue;
+}
+
+.pesquisaPacienteBox {
+    background-color: aqua;
+}
+
+.pesquisaPacienteItem {
+    float: left;
+    align-content: center;
+}
+
+.excluirBox {
+    width: 100%;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.nomeBoxExcluir {
+    color: dodgerblue;
+    font-weight: 500;
+    
+}
+
+
+
+/* TABELAS */
+
+#tabelaEstilo {
+    width: 100%;
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    border: 10px solid #FFF; 
+	   
+}
+
+#tabelaEstilo th {
+    height: 40px;
+    padding-left: 5px;
+    font-size: 18px;
+    line-height: 40px;
+    background: #1c99da;
+    font-weight: 600;
+	color:fff;
+}
+
+#tabelaEstilo td {
+    padding-left: 5px;
+}
+
+#tabelaEstilo a:link, a:visited, a:hover, a:active {
+    color: #0b3043;
+}
+
+#tabelaEstilo tr {
+    height: 25px;
+    line-height: 25px;
+}
+
+#tabelaEstilo tr:nth-child(odd) {
+    background: #FFF;
+    color: #000;
+}
+
+
+#tabelaEstilo tr:nth-child(even) {
+    background: #FFF;
+    color: #000;
+}
+
+
+#tabelaEstilo tr:hover {
+    color: #000;
+    outline:#000;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#tabelaEstilo tr:active {
+    color: #FFF;
+    background-color: #424852;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+/* DETALHE PACIENTE/DENTISTA */
+
+#detalhe {
+    width: 100%;
+}
+
+.campoNome {
+    width: 100%;
+    background-color: #fff;
+    height: 70px;
+    line-height: 70px;
+
+    
+    border-bottom: 1px solid #e2e2e2;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.04);
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    border-bottom: 1px solid #e2e2e2;
+    background: #fff;
+    box-sizing: border-box;
+    
+    font-size: 34px;
+    font-family: 'Open Sans',sans-serif;
+    padding-left: 20px;
+    
+    
+}
+
+.camposVariados {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 20px;
+    line-height: 30px;
+
+    
+    border-bottom: 1px solid #e2e2e2;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.04);
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    border-bottom: 1px solid #e2e2e2;
+    background: #fff;
+    box-sizing: border-box;
+    
+    font-size: 20px;
+    font-family: 'Open Sans',sans-serif;
+    padding: 15px 20px 15px 20px;
+
+    
+}
+
+.campoItem {
+    color: #1c99da;
+    font-weight: 600;
+}
